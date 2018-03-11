@@ -84,7 +84,7 @@ form .col_five_sixth { margin-bottom: 25px; }
 }
 
 #mainNav .navbar-brand {
-  color: #00bed7;
+  color: #FFF;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -101,7 +101,7 @@ form .col_five_sixth { margin-bottom: 25px; }
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 12px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -171,13 +171,12 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/scott-walsh-348847-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 header.masthead .header-content {
-  max-width: 500px;
   margin-bottom: 100px;
   text-align: center;
 }
